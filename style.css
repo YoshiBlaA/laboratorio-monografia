@@ -1,0 +1,11 @@
+div.text-center > .row{
+    border: red solid;
+}
+
+div.text-center > .row > [class^='col']{
+    border: rgb(0, 255, 170) solid;
+}
+
+div.text-center > .row > [class^='col'] > .row{
+    border: solid orange;
+}
