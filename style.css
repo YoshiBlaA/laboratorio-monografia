@@ -1,11 +1,91 @@
-div.text-center > .row{
+*{
+    --bk-color-thor: rgba(173, 6, 6, 0.613);
+    --bk-color-cap: rgba(3, 45, 123, 0.646);
+    --bk-color-hulk: rgba(2, 86, 2, 0.668);
+    --bk-color-ironman: rgb(187, 172, 88);
+    --bk-color-bwidow: rgba(27, 43, 121, 0.371);
+    --bk-color-hkeye: rgba(85, 12, 85, 0.341);
+    --bk-color-slord: rgba(87, 15, 15, 0.573);
+    --bk-color-spiderman: rgb(88, 9, 9);
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+ /* div.mi-grid > .row{
     border: red solid;
 }
 
-div.text-center > .row > [class^='col']{
+div.mi-grid > .row > [class^='col']{
     border: rgb(0, 255, 170) solid;
 }
 
-div.text-center > .row > [class^='col'] > .row{
+div.mi-grid > .row > [class^='col'] > .row{
     border: solid orange;
+}
+
+div.mi-grid > .row:first-child{
+    background-color: rgba(0, 0, 0, 0.703);
+}  */
+
+div.mi-grid > .row:first-child img{
+    height: 500px !important;
+    width: auto !important;
+    justify-self: center;
+}
+
+div.mainContent{
+    position: sticky;
+    top: 0;
+    z-index: 9;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+div.cap-america{
+    background-color: var(--bk-color-cap);
+}
+div.thor{
+    background-color: var(--bk-color-thor);
+}
+div.hulk{
+    background-color: var(--bk-color-hulk);
+}
+
+div.second-row img{
+    padding: 20px 20px 0;
+}
+
+div.ironman{
+    background-color: var(--bk-color-ironman);
+}
+div.black-widow{
+    background-color: var(--bk-color-bwidow);
+}
+div.hawkeye{
+    background-color: var(--bk-color-hkeye);
+}
+
+div.third-row img{
+    width: auto !important;
+    height: 400px !important;
+}
+
+div.star-lord{
+    background-color: var(--bk-color-slord);
+    color: white
+}
+div.spiderman{
+    background-color: var(--bk-color-spiderman);
+    color: white
+}
+div.second-row img{
+    height: 400px !important;
+    width: 350px !important;
+}
+
+.mi-flex-cards{
+    display: flex;
+    justify-content: space-around;
 }
