@@ -9,10 +9,10 @@
     --bk-color-spiderman: rgb(88, 9, 9);
 }
 
-body{
-    background-color: whitesmoke;
+body,
+nav{
+    background-color: rgb(227, 225, 225);
 }
-
  /* div.mi-grid > .row{
     border: red solid;
 }
@@ -29,6 +29,10 @@ div.mi-grid > .row:first-child{
     background-color: rgba(0, 0, 0, 0.703);
 }  */
 
+h1.mainTitle{
+    padding: 10px;
+}
+
 div.mi-grid > .row:first-child img{
     height: 500px !important;
     width: auto !important;
@@ -40,7 +44,8 @@ div.mainContent{
     top: 0;
     z-index: 9;
     background-color: whitesmoke;
-    padding: 10px;
+    padding: 0px;
+    box-shadow: 0px 2px 20px 1px rgba(0,0,0,0.69);
 }
 
 div.cap-america{
